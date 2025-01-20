@@ -4,7 +4,7 @@ import string
 # Configuration
 BASE_URL = "https://api-example.me/api/user/" #Change this
 HEADERS = {"Content-Type": "application/json"}
-USERNAME = "admin"
+USERNAME = "" #Change this
 
 # Characters that might be in the hash
 HASH_CHARACTERS = string.ascii_letters + string.digits + "=+$_/"
